@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptographyLabs", "CryptographyLabs\CryptographyLabs.csproj", "{8D6ADFC3-3F8B-4DAC-A11E-AAD9AEE7215D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VigenereCipher", "VigenereCipher\VigenereCipher.csproj", "{1048EE66-D2E0-44A4-B9A6-B123E41D7189}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEA", "TEA\TEA.csproj", "{F97137E5-8EEC-4284-B264-518D06B59369}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D6ADFC3-3F8B-4DAC-A11E-AAD9AEE7215D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6ADFC3-3F8B-4DAC-A11E-AAD9AEE7215D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6ADFC3-3F8B-4DAC-A11E-AAD9AEE7215D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D6ADFC3-3F8B-4DAC-A11E-AAD9AEE7215D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1048EE66-D2E0-44A4-B9A6-B123E41D7189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1048EE66-D2E0-44A4-B9A6-B123E41D7189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1048EE66-D2E0-44A4-B9A6-B123E41D7189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1048EE66-D2E0-44A4-B9A6-B123E41D7189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F97137E5-8EEC-4284-B264-518D06B59369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F97137E5-8EEC-4284-B264-518D06B59369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F97137E5-8EEC-4284-B264-518D06B59369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F97137E5-8EEC-4284-B264-518D06B59369}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
