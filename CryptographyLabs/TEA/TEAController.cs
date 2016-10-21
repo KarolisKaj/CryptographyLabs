@@ -22,7 +22,6 @@
 
             // Check whether encryption model is working correctly and you actually can encrypt and decrypt same message/cipher.
             //TEA.Encrypt(new uint[,] { { 'l', 'i' }, { 'e', 't' }, { 'i', 'n' }, { 'g', 'a' }, { 's', ' ' }, { ' ', 'o' }, { 'r', 'a' }, { 's', 'x' } }, key);
-            Console.ReadKey();
         }
     }
 }

@@ -9,6 +9,8 @@
             Console.ReadKey();
             TEA.TEAController.ShowAnswers();
             Console.ReadKey();
+            StatisticalTesting.StatisticalTestingController.ShowAnswers();
+            Console.ReadKey();
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿namespace VigenereCipher
 {
+    using CryptographyLabs.Utilities;
     using System;
     /// <summary>
     /// To get key length you must call method VigenereCipher.PutOutOccurences(currentMessage) and manually find length from output.
@@ -35,8 +36,10 @@
             currentKey = FileHelper.GetKey("VigenereFouthTask.txt");
             currentMessage = FileHelper.GetMessage("VigenereFouthTask.txt");
             Console.WriteLine($"Vigenere fourth decryption. Key = {currentKey}:");
-            Console.WriteLine("To be implemented.");
-            Console.ReadLine();
+            foreach (var decryption in VigenereAutoKeyCipher.Decrypt(currentMessage, currentKey))
+            {
+                Console.WriteLine(decryption);
+            }
         }
     }
 }

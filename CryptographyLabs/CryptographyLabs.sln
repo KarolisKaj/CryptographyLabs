@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VigenereCipher", "VigenereC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEA", "TEA\TEA.csproj", "{F97137E5-8EEC-4284-B264-518D06B59369}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatisticalTesting", "StatisticalTesting\StatisticalTesting.csproj", "{036F6C30-73C3-4FB2-9B85-000C6E05614E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptographyLabs.Utilities", "CryptographyLabs.Utilities\CryptographyLabs.Utilities.csproj", "{936B984E-8D89-4A2E-B14C-E7E91142CF85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{F97137E5-8EEC-4284-B264-518D06B59369}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F97137E5-8EEC-4284-B264-518D06B59369}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F97137E5-8EEC-4284-B264-518D06B59369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{036F6C30-73C3-4FB2-9B85-000C6E05614E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{036F6C30-73C3-4FB2-9B85-000C6E05614E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{036F6C30-73C3-4FB2-9B85-000C6E05614E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{036F6C30-73C3-4FB2-9B85-000C6E05614E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{936B984E-8D89-4A2E-B14C-E7E91142CF85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936B984E-8D89-4A2E-B14C-E7E91142CF85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936B984E-8D89-4A2E-B14C-E7E91142CF85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{936B984E-8D89-4A2E-B14C-E7E91142CF85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

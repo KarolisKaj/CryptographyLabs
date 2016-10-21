@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8D6ADFC3-3F8B-4DAC-A11E-AAD9AEE7215D}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{936B984E-8D89-4A2E-B14C-E7E91142CF85}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CryptographyLabs</RootNamespace>
-    <AssemblyName>CryptographyLabs</AssemblyName>
+    <RootNamespace>CryptographyLabs.Utilities</RootNamespace>
+    <AssemblyName>CryptographyLabs.Utilities</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,31 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="FileHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\StatisticalTesting\StatisticalTesting.csproj">
-      <Project>{036f6c30-73c3-4fb2-9b85-000c6e05614e}</Project>
-      <Name>StatisticalTesting</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\TEA\TEA.csproj">
-      <Project>{f97137e5-8eec-4284-b264-518d06b59369}</Project>
-      <Name>TEA</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\VigenereCipher\VigenereCipher.csproj">
-      <Project>{1048ee66-d2e0-44a4-b9a6-b123e41d7189}</Project>
-      <Name>VigenereCipher</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="VigenereFirstTask.txt" />
-    <Content Include="VigenereFouthTask.txt" />
-    <Content Include="VigenereSecondTask.txt" />
-    <Content Include="VigenereThirdTask.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
