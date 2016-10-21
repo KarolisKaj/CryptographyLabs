@@ -1,6 +1,5 @@
 ﻿namespace CryptographyLabs
 {
-
     using System;
     class Program
     {
