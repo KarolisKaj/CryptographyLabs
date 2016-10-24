@@ -8,8 +8,8 @@
         {
             var commonData = CommonData.GetCommonData(data);
 
-            var dif = commonData.Zeros - commonData.Ones;
-            return (dif * (decimal)dif / commonData.Total);
+            var dif = commonData.Ones - commonData.Zeros;
+            return dif * (decimal)dif / commonData.Total;
         }
     }
 }
